@@ -1,0 +1,43 @@
+@import 'bin/materialize.css';
+
+rojo = #f44336 
+azul = #1e88e5
+
+.user
+  font-size: 9px
+
+.b
+  display none
+
+#mensajes
+	height 450px
+	overflow auto
+	
+.mt
+	padding 10px
+	margin-top 10px
+	width 100%
+
+.inp label
+	color black
+
+/* label underline focus color */
+.inp input[type=text]:focus {
+ border-bottom: 1px solid azul;
+ box-shadow: 0 1px 0 0 azul;
+}
+/* valid color */
+.inp input[type=text].valid {
+ border-bottom: 1px solid azul;
+ box-shadow: 0 1px 0 0 azul;
+}
+/* invalid color */
+.inp input[type=text].invalid {
+ border-bottom: 1px solid azul;
+ box-shadow: 0 1px 0 0 azul;
+}
+/* icon prefix focus color */
+.inp .prefix.active {
+ color: azul;
+}
+     
